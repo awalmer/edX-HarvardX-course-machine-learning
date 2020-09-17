@@ -1,0 +1,23 @@
+Section 1: Introduction to Machine Learning
+
+Take in features as input, output is unknown outcome.
+Features are AKA predictors or covariates.
+
+Categorical outcome. Outcome can be one of k classes. (classification)
+
+Ultimately, we want our predicted outcome (Y-hat) to be same as real unkown outcome.
+
+Goal: minimize error between prediction and actual.
+
+𝑋1,...,𝑋𝑝  denote the features,  𝑌  denotes the outcomes, and  𝑌̂ (hat) denotes the predictions.
+Machine learning prediction tasks can be divided into categorical and continuous outcomes. 
+We refer to these as classification and prediction, respectively.
+
+
+Example: USPS ML algorithm reading hand-written address on envelopes
+
+𝑌𝑖  = an outcome for observation or index i.
+We use boldface for 𝐗_𝐢 to distinguish the vector of predictors from the individual predictors 𝑋𝑖,1,...,𝑋𝑖,784.
+When referring to an arbitrary set of features and outcomes, we drop the index i and use 𝑌 and bold 𝐗.
+Uppercase is used to refer to variables because we think of predictors as random variables.
+Lowercase is used to denote observed values. For example, 𝐗=𝐱.
