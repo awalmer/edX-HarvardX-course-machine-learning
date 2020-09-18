@@ -1,0 +1,7 @@
+Section 2: Machine Learning Basics
+
+R: caret package
+
+Example #1: predict sex using height.
+
+Randomly split the data into the TRAINING SET (known outcome) and the TEST SET (unknown outcome, we use to predict)
